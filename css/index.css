@@ -1,0 +1,96 @@
+.hero {
+    display: block;
+    background-image: url(../imgs/hero-bg.png);
+}
+
+.hero .hero-logo {
+    width: 55%;
+}
+
+.hero .hero-video {
+    width: 100%;
+    aspect-ratio: 1/.64;
+    object-position: top;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.hero .hero-title {
+    color: #fff;
+    background-color: #90b7b3;
+    width: 75%;
+    text-align: center;
+    margin:0px auto;
+    padding: 3% 0px;
+    position: relative;
+    font-weight: 500;
+}
+
+.hero .hero-title::after {
+    content: " ";
+    position: absolute;
+    top: -3px;
+    right: -6%;
+    width: 24%;
+    height: 15%;
+    background-color: #b21931;
+}
+
+.hero .hero-title::before {
+    content: " ";
+    position: absolute;
+    bottom: -3px;
+    left: -6%;
+    width: 24%;
+    height: 15%;
+    background-color: #ff9419;
+}
+
+.hero p{
+    width: 85%;
+    color: #0f2937;
+    font-weight: 500;
+}
+.hero .btn-con{
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero .btn-con button{
+    background-color: #b21931;
+    color: #fff;
+    padding: 2% 0px ;
+    width: 25%;
+    border-radius: .2rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* reyada */
+
+.reyada{
+    background-color: #b21931;
+}
+
+.reyada .back-btn{
+    background-color: #ff9419;
+}
+
+.reyada .mid-title{
+    color: #E1912E;
+}
+
+.reyada .num{
+    color: #ff9419;
+    background-color: #b21931;
+}
+
+.reyada .page-img{
+    width: 75%;
+    margin-right: auto;
+    display: block;
+}

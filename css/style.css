@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('../libs/effra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* global */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Effra';
+}
+
+.ar-mode {
+    direction: rtl;
+}
+
+.en-mode {
+    direction: ltr;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+.dimensions {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 200%;
+    left: 200%;
+}
+
+.dimensions img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.screen-dimensions {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+p {
+    text-align: justify;
+    text-align-last: center;
+}
+
+/* back-btn */
+
+.back-btn {
+    position: absolute;
+    top: 11%;
+    left: 8%;
+    color: #fff;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 8%;
+    font-size: 2vh;
+}
+
+.back-btn i {
+    margin-top: 9%;
+}
+
+/* ############## menu ############### */
+
+.menu {
+    background-color: #012938;
+}
+
+.menu .menu-logo {
+    width: 60%;
+}
+
+.menu .back-btn {
+    background-color: #85b8b1;
+}
+
+.menu .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu .menu-container button {
+    width: calc((100% - 40px) / 3);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu .menu-container button img {
+    width: 80%;
+}
+
+.menu .menu-container button:hover {
+    box-shadow: 0px 0px 7px #fff;
+}
+
+
+section {
+    display: none;
+}
+
+.info-section .section-logo {
+    width: 25%;
+}
+
+.wid-85 {
+    width: 85%;
+}
+
+.ar-section * {
+    direction: rtl;
+}
+
+.mid-title {
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.goal-row {
+    width: 100%;
+    display: flex;
+}
+
+.goal-box {
+    width: 50%;
+    border-top: solid 2px #fff;
+}
+
+.goal-box .num {
+    width: 14%;
+    aspect-ratio: 1/1;
+    border: solid 2px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ar-section .goal-box .num {
+    transform: translate(-130%, -50%);
+}
+
+.ar-section .goal-box p {
+    text-align: justify !important;
+    text-align-last: right !important;
+}
+
+.num span {
+    color: inherit;
+    margin-top: 20%;
+    display: block;
+}
+
+.center-goal-box .num {
+    margin: auto;
+    transform: translateY(-50%) translateX(0px) !important;
+}
+
+.ar-section .center-goal-box p {
+    text-align: center !important;
+    text-align-last: center !important;
+    padding: 0px 3%;
+}
+
+.ar-section .center-goal-box p:nth-child(2) {
+    color: #E1912E;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.three-goals-con .goal-box {
+    width: calc(100% / 3);
+}
+
+.three-goals-con .goal-box .num {
+    width: 23%;
+}
+
+.qr-box{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    border-top: solid 2px #fff;
+    padding-top: 3%;
+}
+
+.qr-box img{
+    width: 14%;
+}
