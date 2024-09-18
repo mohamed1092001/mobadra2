@@ -94,3 +94,30 @@ button{
     margin-right: auto;
     display: block;
 }
+/* wakeel */
+
+.wakeel{
+    background-color: #85B8B1;
+ 
+}
+
+.wakeel .back-btn{
+    
+    background: #012938;
+}
+
+.wakeel .mid-title{
+    color: #002A3A;
+    
+}
+
+.wakeel .num{
+    background-color: #85B8B1;
+    color: #012938;
+}
+
+.wakeel .page-img{
+    width: 75%;
+    margin-right: auto;
+    display: block;
+}

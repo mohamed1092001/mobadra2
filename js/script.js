@@ -29,6 +29,7 @@ $(document).ready(function () {
         $(".hero p").css("font-size", (fontSize * .036635) + 'px');
         $(".hero button").css("font-size", (fontSize * .036) + 'px');
         $(".reyada-ar p").css("font-size", (fontSize * .0326) + 'px');
+        $(".wakeel-ar p").css("font-size", (fontSize * .0326) + 'px');
         $(".ar-section .mid-title").css("font-size", (fontSize * .057) + 'px');
         $(".ar-section .goal-box p").css("font-size", (fontSize * .027) + 'px');
         $(".ar-section .center-goal-box p").css("font-size", (fontSize * .023) + 'px');

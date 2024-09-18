@@ -194,7 +194,7 @@ section {
     padding: 0px 3%;
 }
 
-.ar-section .center-goal-box p:nth-child(2) {
+.ar-section.reyada .center-goal-box p:nth-child(2) {
     color: #E1912E;
     font-weight: bold;
     margin-bottom: 3%;
