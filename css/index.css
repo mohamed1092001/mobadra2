@@ -121,3 +121,32 @@ button{
     margin-right: auto;
     display: block;
 }
+/* nashr */
+
+.nashr{
+    background: #012938;
+}
+
+.nashr .back-btn{
+    background-color: #85B8B1;
+    
+}
+
+.nashr .mid-title{
+    color: #85B8B1;
+    
+}
+
+.nashr .num{
+    color: #85B8B1;
+    background-color: #012938;
+}
+
+.nashr .page-img{
+    width: 35%;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    right: 0%;
+    top: 6%;
+}
