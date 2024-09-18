@@ -89,6 +89,7 @@ $(document).ready(function () {
         $(".info-section video").trigger("pause")
         $(".info-section video").prop('currentTime', 0);
     })
+
     $(".prev-btn button").click(function () {
         $("section").fadeOut(700);
         $(".elketaab").fadeIn(800);
@@ -96,4 +97,11 @@ $(document).ready(function () {
         $(".info-section video").prop('currentTime', 0);
     })
 
+
+    $('video').on('play', function () {
+        // وقف كل الفيديوهات الأخرى
+        $('video').not(this).each(function () {
+            this.pause();
+        });
+    });
 });
