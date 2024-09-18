@@ -150,3 +150,61 @@ button{
     right: 0%;
     top: 6%;
 }
+/* elketaab */
+
+.elketaab{
+    background: #780A47;
+}
+
+.elketaab .back-btn{
+    background: #E1912E;
+    
+}
+
+.elketaab .mid-title{
+    color: #E1912E;
+    
+}
+
+.elketaab .num{
+    color: #E1912E;
+    background-color: #780A47;
+}
+
+.elketaab .page-img{
+    width: 35%;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    right: 0%;
+    top: 6%;
+}
+/* elketaab2 */
+
+.elketaab2{
+    background: #780A47;
+}
+
+.elketaab2 .back-btn{
+    background: #E1912E;
+    
+}
+
+.elketaab2 .mid-title{
+    color: #E1912E;
+    
+}
+
+.elketaab2 .num{
+    color: #E1912E;
+    background-color: #780A47;
+}
+
+.elketaab2 .page-img{
+    width: 35%;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    right: 0%;
+    top: 6%;
+}

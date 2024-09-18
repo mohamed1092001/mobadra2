@@ -32,12 +32,16 @@ $(document).ready(function () {
         $(".reyada-ar p").css("font-size", (fontSize * .0326) + 'px');
         $(".wakeel-ar p").css("font-size", (fontSize * .035) + 'px');
         $(".nashr-ar p").css("font-size", (fontSize * .032) + 'px');
+        $(".elketaab-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".ar-section .mid-title").css("font-size", (fontSize * .057) + 'px');
         $(".ar-section .goal-box p").css("font-size", (fontSize * .027) + 'px');
         $(".ar-section .center-goal-box p").css("font-size", (fontSize * .023) + 'px');
         $(".ar-section .goal-row .mid-title").css("font-size", (fontSize * .04) + 'px');
         $(".wakeel-ar .center-goal-box p").css("font-size", (fontSize * .021) + 'px');
+        $(".elketaab-ar .goal-box p").css("font-size", (fontSize * .024) + 'px');
+        $(".elketaab-ar .center-goal-box p").css("font-size", (fontSize * .021) + 'px');
         $(".ar-section .goal-box .num").css("font-size", (fontSize * .025) + 'px');
+        $(".elketaab-f-p").css("font-size", (fontSize * .021) + 'px');
     }
 
     // أول مرة لما الصفحة تتحمل
@@ -77,6 +81,19 @@ $(document).ready(function () {
         let pageTarget = $(this).attr("target")
         $("section").fadeOut(700);
         $("." + pageTarget).fadeIn(800);
+    })
+
+    $(".next-btn button").click(function () {
+        $("section").fadeOut(700);
+        $(".elketaab2").fadeIn(800);
+        $(".info-section video").trigger("pause")
+        $(".info-section video").prop('currentTime', 0);
+    })
+    $(".prev-btn button").click(function () {
+        $("section").fadeOut(700);
+        $(".elketaab").fadeIn(800);
+        $(".info-section video").trigger("pause")
+        $(".info-section video").prop('currentTime', 0);
     })
 
 });
