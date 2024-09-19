@@ -38,6 +38,7 @@ $(document).ready(function () {
         $(".digital-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".door-ar p").css("font-size", (fontSize * .035) + 'px');
         $(".bekeen-ar p").css("font-size", (fontSize * .045) + 'px');
+        $(".see-all-ar p").css("font-size", (fontSize * .045) + 'px');
         $(".landon-ar p").css("font-size", (fontSize * .048) + 'px');
         $(".new-ar p").css("font-size", (fontSize * .048) + 'px');
         $(".trainnig-wekalaat-ar p").css("font-size", (fontSize * .048) + 'px');

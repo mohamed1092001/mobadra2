@@ -367,9 +367,26 @@ button {
 }
 
 
-
 .trainning-door .page-img {
     width: 93%;
     margin-right: auto;
     display: block;
+}
+
+/* see-all */
+
+.see-all {
+    background: #002A3A;
+}
+
+.see-all .back-btn {
+    background: #85B8B1;
+
+}
+
+.see-all .page-img {
+    width: 53%;
+    margin-left: auto;
+    display: block;
+
 }
