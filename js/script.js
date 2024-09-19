@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
     function calculateImageSize() {
         var $img = $(".dimensions img");
@@ -81,6 +83,9 @@ $(document).ready(function () {
         $(".menu-ar").fadeIn(800);
         $(".info-section video").trigger("pause")
         $(".info-section video").prop('currentTime', 0);
+        $("iframe").attr("src","none")
+        $("iframe").attr("src","https://www.youtube.com/embed/rEA7D2wMTK4")
+        
     })
 
     // open section
@@ -95,6 +100,8 @@ $(document).ready(function () {
         $("section").fadeOut(700);
         $(".elketaab2").fadeIn(800);
         $(".info-section video").trigger("pause")
+        $("iframe").attr("src", "none")
+        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
         $(".info-section video").prop('currentTime', 0);
     })
 
@@ -102,6 +109,8 @@ $(document).ready(function () {
         $("section").fadeOut(700);
         $(".elketaab").fadeIn(800);
         $(".info-section video").trigger("pause")
+        $("iframe").attr("src", "none")
+        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
         $(".info-section video").prop('currentTime', 0);
     })
 
@@ -111,5 +120,8 @@ $(document).ready(function () {
         $('video').not(this).each(function () {
             this.pause();
         });
+        $("iframe").attr("src", "none")
+        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
     });
 });
+
