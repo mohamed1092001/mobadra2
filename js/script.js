@@ -38,6 +38,8 @@ $(document).ready(function () {
         $(".bekeen-ar p").css("font-size", (fontSize * .045) + 'px');
         $(".landon-ar p").css("font-size", (fontSize * .048) + 'px');
         $(".new-ar p").css("font-size", (fontSize * .048) + 'px');
+        $(".trainnig-wekalaat-ar p").css("font-size", (fontSize * .048) + 'px');
+        $(".trainning-door-ar p").css("font-size", (fontSize * .042) + 'px');
         $(".ar-section .mid-title").css("font-size", (fontSize * .057) + 'px');
         $(".ar-section .goal-box p").css("font-size", (fontSize * .027) + 'px');
         $(".ar-section .center-goal-box p").css("font-size", (fontSize * .023) + 'px');

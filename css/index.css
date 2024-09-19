@@ -336,20 +336,40 @@ button {
 }
 
 /* trainnig-wekalaat */
+
 .trainnig-wekalaat {
-    background: #012938;
+    background: #780A47;
 }
 
 .trainnig-wekalaat .back-btn {
-    background: #85B8B1;
+    background: #E1912E;
+}
 
+.trainnig-wekalaat .mid-title{
+    color: #E1912E;
+}
+
+
+.trainnig-wekalaat .page-img {
+    width: 50%;
+    margin-left: auto;
+    display: block;
+
+}
+/* trainning-door */
+
+.trainning-door {
+    background: #85B8B1;
+}
+
+.trainning-door .back-btn {
+    background: #012938;
 }
 
 
 
-.trainnig-wekalaat .page-img {
+.trainning-door .page-img {
     width: 93%;
     margin-right: auto;
     display: block;
-
 }
