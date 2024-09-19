@@ -20,7 +20,7 @@
     background-color: #90b7b3;
     width: 75%;
     text-align: center;
-    margin:0px auto;
+    margin: 0px auto;
     padding: 3% 0px;
     position: relative;
     font-weight: 500;
@@ -46,103 +46,106 @@
     background-color: #ff9419;
 }
 
-.hero p{
+.hero p {
     width: 85%;
     color: #0f2937;
     font-weight: 500;
 }
-.hero .btn-con{
+
+.hero .btn-con {
     display: flex;
     gap: 7%;
     justify-content: center;
     width: 100%;
 }
 
-.hero .btn-con button{
+.hero .btn-con button {
     background-color: #b21931;
     color: #fff;
-    padding: 2% 0px ;
+    padding: 2% 0px;
     width: 25%;
     border-radius: .2rem;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
 /* reyada */
 
-.reyada{
+.reyada {
     background: #780A47;
 }
 
-.reyada .back-btn{
+.reyada .back-btn {
     background-color: #ff9419;
 }
 
-.reyada .mid-title{
+.reyada .mid-title {
     color: #E1912E;
 }
 
-.reyada .num{
+.reyada .num {
     color: #ff9419;
     background-color: #780A47;
 }
 
-.reyada .page-img{
+.reyada .page-img {
     width: 75%;
     margin-right: auto;
     display: block;
 }
+
 /* wakeel */
 
-.wakeel{
+.wakeel {
     background-color: #85B8B1;
- 
+
 }
 
-.wakeel .back-btn{
-    
+.wakeel .back-btn {
+
     background: #012938;
 }
 
-.wakeel .mid-title{
+.wakeel .mid-title {
     color: #002A3A;
-    
+
 }
 
-.wakeel .num{
+.wakeel .num {
     background-color: #85B8B1;
     color: #012938;
 }
 
-.wakeel .page-img{
+.wakeel .page-img {
     width: 75%;
     margin-right: auto;
     display: block;
 }
+
 /* nashr */
 
-.nashr{
+.nashr {
     background: #012938;
 }
 
-.nashr .back-btn{
+.nashr .back-btn {
     background-color: #85B8B1;
-    
+
 }
 
-.nashr .mid-title{
+.nashr .mid-title {
     color: #85B8B1;
-    
+
 }
 
-.nashr .num{
+.nashr .num {
     color: #85B8B1;
     background-color: #012938;
 }
 
-.nashr .page-img{
+.nashr .page-img {
     width: 35%;
     margin-right: auto;
     display: block;
@@ -150,28 +153,29 @@ button{
     right: 0%;
     top: 6%;
 }
+
 /* elketaab */
 
-.elketaab{
+.elketaab {
     background: #780A47;
 }
 
-.elketaab .back-btn{
+.elketaab .back-btn {
     background: #E1912E;
-    
+
 }
 
-.elketaab .mid-title{
+.elketaab .mid-title {
     color: #E1912E;
-    
+
 }
 
-.elketaab .num{
+.elketaab .num {
     color: #E1912E;
     background-color: #780A47;
 }
 
-.elketaab .page-img{
+.elketaab .page-img {
     width: 35%;
     margin-right: auto;
     display: block;
@@ -182,26 +186,26 @@ button{
 
 /* elketaab2 */
 
-.elketaab2{
+.elketaab2 {
     background: #780A47;
 }
 
-.elketaab2 .back-btn{
+.elketaab2 .back-btn {
     background: #E1912E;
-    
+
 }
 
-.elketaab2 .mid-title{
+.elketaab2 .mid-title {
     color: #E1912E;
-    
+
 }
 
-.elketaab2 .num{
+.elketaab2 .num {
     color: #E1912E;
     background-color: #780A47;
 }
 
-.elketaab2 .page-img{
+.elketaab2 .page-img {
     width: 35%;
     margin-right: auto;
     display: block;
@@ -209,30 +213,59 @@ button{
     right: 0%;
     top: 6%;
 }
+
 /* digital */
 
-.digital{
+.digital {
     background: #85B8B1;
 }
 
-.digital .back-btn{
+.digital .back-btn {
     background: #E1912E;
-    
+
 }
 
-.digital .mid-title{
+.digital .mid-title {
     color: #012938;
-    
+
 }
 
-.digital .num{
+.digital .num {
     color: #012938;
     background: #85B8B1;
 }
 
-.digital .page-img{
+.digital .page-img {
     width: 75%;
     margin-right: auto;
     display: block;
-    
+
+}
+
+/* door */
+
+.door {
+    background-color: #012938;
+}
+
+.door .back-btn {
+    background: #85B8B1;
+
+}
+
+.door .mid-title {
+    color: #85B8B1;
+
+}
+
+.door .num {
+    color: #012938;
+    background: #85B8B1;
+}
+
+.door .page-img {
+    width: 75%;
+    margin-right: auto;
+    display: block;
+
 }
