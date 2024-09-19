@@ -269,3 +269,49 @@ button {
     display: block;
 
 }
+/* bekeen */
+
+.bekeen {
+    background-color: #780A47;
+}
+
+.bekeen .back-btn {
+    background: #E1912E;
+
+}
+
+.bekeen .mid-title {
+    color: #E1912E;
+
+}
+
+.bekeen .num {
+    color: #E1912E;
+    background: #780A47;
+}
+
+.bekeen .page-img {
+    width: 53%;
+    margin-left: auto;
+    display: block;
+
+}
+/* landon */
+
+.landon {
+    background: #85B8B1;
+}
+
+.landon .back-btn {
+    background: #012938;
+
+}
+
+
+
+.landon .page-img {
+    width: 53%;
+    margin-left: auto;
+    display: block;
+
+}

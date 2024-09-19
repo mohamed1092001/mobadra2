@@ -35,6 +35,8 @@ $(document).ready(function () {
         $(".elketaab-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".digital-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".door-ar p").css("font-size", (fontSize * .035) + 'px');
+        $(".bekeen-ar p").css("font-size", (fontSize * .045) + 'px');
+        $(".landon-ar p").css("font-size", (fontSize * .048) + 'px');
         $(".ar-section .mid-title").css("font-size", (fontSize * .057) + 'px');
         $(".ar-section .goal-box p").css("font-size", (fontSize * .027) + 'px');
         $(".ar-section .center-goal-box p").css("font-size", (fontSize * .023) + 'px');
