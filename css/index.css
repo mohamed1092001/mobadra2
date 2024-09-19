@@ -315,3 +315,41 @@ button {
     display: block;
 
 }
+/* new */
+
+.new {
+    background: #012938;
+}
+
+.new .back-btn {
+    background: #85B8B1;
+
+}
+
+
+
+.new .page-img {
+    width: 93%;
+    margin-right: auto;
+    display: block;
+
+}
+
+/* trainnig-wekalaat */
+.trainnig-wekalaat {
+    background: #012938;
+}
+
+.trainnig-wekalaat .back-btn {
+    background: #85B8B1;
+
+}
+
+
+
+.trainnig-wekalaat .page-img {
+    width: 93%;
+    margin-right: auto;
+    display: block;
+
+}
