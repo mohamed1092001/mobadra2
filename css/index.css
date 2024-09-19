@@ -179,6 +179,7 @@ button{
     right: 0%;
     top: 6%;
 }
+
 /* elketaab2 */
 
 .elketaab2{
@@ -207,4 +208,31 @@ button{
     position: absolute;
     right: 0%;
     top: 6%;
+}
+/* digital */
+
+.digital{
+    background: #85B8B1;
+}
+
+.digital .back-btn{
+    background: #E1912E;
+    
+}
+
+.digital .mid-title{
+    color: #012938;
+    
+}
+
+.digital .num{
+    color: #012938;
+    background: #85B8B1;
+}
+
+.digital .page-img{
+    width: 75%;
+    margin-right: auto;
+    display: block;
+    
 }

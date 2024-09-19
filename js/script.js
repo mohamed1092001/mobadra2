@@ -33,6 +33,7 @@ $(document).ready(function () {
         $(".wakeel-ar p").css("font-size", (fontSize * .035) + 'px');
         $(".nashr-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".elketaab-ar p").css("font-size", (fontSize * .032) + 'px');
+        $(".digital-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".ar-section .mid-title").css("font-size", (fontSize * .057) + 'px');
         $(".ar-section .goal-box p").css("font-size", (fontSize * .027) + 'px');
         $(".ar-section .center-goal-box p").css("font-size", (fontSize * .023) + 'px');
