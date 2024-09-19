@@ -36,6 +36,7 @@ $(document).ready(function () {
         $(".nashr-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".elketaab-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".digital-ar p").css("font-size", (fontSize * .032) + 'px');
+        $(".mosaraat-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".door-ar p").css("font-size", (fontSize * .035) + 'px');
         $(".bekeen-ar p").css("font-size", (fontSize * .045) + 'px');
         $(".see-all-ar p").css("font-size", (fontSize * .045) + 'px');
@@ -50,6 +51,7 @@ $(document).ready(function () {
         $(".wakeel-ar .center-goal-box p").css("font-size", (fontSize * .021) + 'px');
         $(".elketaab-ar .goal-box p").css("font-size", (fontSize * .024) + 'px');
         $(".elketaab-ar .center-goal-box p").css("font-size", (fontSize * .021) + 'px');
+        $(".mosaraat-ar .center-goal-box p").css("font-size", (fontSize * .019) + 'px');
         $(".door-ar .goal-box p").css("font-size", (fontSize * .022) + 'px');
         $(".ar-section .goal-box .num").css("font-size", (fontSize * .025) + 'px');
         $(".elketaab-f-p").css("font-size", (fontSize * .021) + 'px');

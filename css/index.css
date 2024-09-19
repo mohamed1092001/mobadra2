@@ -390,3 +390,35 @@ button {
     display: block;
 
 }
+
+/* mosaraat */
+
+.mosaraat {
+    background: #85B8B1;
+}
+
+.mosaraat .back-btn {
+    background: #012938;
+
+}
+
+.mosaraat .mid-title {
+    color: #012938;
+
+}
+
+.mosaraat .num {
+    color: #012938;
+    background: #85B8B1;
+}
+
+.mosaraat .page-img {
+    width: 50%;
+    margin-left: auto;
+    display: block;
+
+}
+
+.mosaraat .goal-box p:nth-child(2){
+    color: #012938;
+}
