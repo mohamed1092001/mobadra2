@@ -214,6 +214,10 @@ button {
     top: 6%;
 }
 
+.elketaab2 .goal-box p:nth-child(2){
+    transform: translateY(0%) !important;
+}
+
 /* digital */
 
 .digital {
