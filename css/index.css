@@ -269,6 +269,7 @@ button {
     display: block;
 
 }
+
 /* bekeen */
 
 .bekeen {
@@ -296,6 +297,7 @@ button {
     display: block;
 
 }
+
 /* landon */
 
 .landon {
@@ -315,6 +317,7 @@ button {
     display: block;
 
 }
+
 /* new */
 
 .new {
@@ -345,7 +348,7 @@ button {
     background: #E1912E;
 }
 
-.trainnig-wekalaat .mid-title{
+.trainnig-wekalaat .mid-title {
     color: #E1912E;
 }
 
@@ -356,6 +359,7 @@ button {
     display: block;
 
 }
+
 /* trainning-door */
 
 .trainning-door {
@@ -419,6 +423,35 @@ button {
 
 }
 
-.mosaraat .goal-box p:nth-child(2){
+.mosaraat .goal-box p:nth-child(2) {
     color: #012938;
+}
+
+/* trainning-nashreen */
+
+.trainning-nashreen {
+    background: #012938;
+}
+
+.trainning-nashreen .back-btn {
+    background-color: #85B8B1;
+}
+
+.trainning-nashreen .mid-title {
+    color: #85B8B1;
+}
+
+.trainning-nashreen .num {
+    color: #85B8B1;
+    background-color: #012938;
+}
+
+.trainning-nashreen .page-img {
+    width: 75%;
+    margin-right: auto;
+    display: block;
+}
+
+.trainning-nashreen .goal-box p:nth-child(3) {
+    color: #E1912E;
 }

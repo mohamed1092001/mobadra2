@@ -32,6 +32,7 @@ $(document).ready(function () {
         $(".hero p").css("font-size", (fontSize * .036635) + 'px');
         $(".hero button").css("font-size", (fontSize * .036) + 'px');
         $(".reyada-ar p").css("font-size", (fontSize * .0326) + 'px');
+        $(".trainning-nashreen-ar p").css("font-size", (fontSize * .0326) + 'px');
         $(".wakeel-ar p").css("font-size", (fontSize * .035) + 'px');
         $(".nashr-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".elketaab-ar p").css("font-size", (fontSize * .032) + 'px');
