@@ -73,13 +73,14 @@ p {
 
 .back-btn {
     position: absolute;
-    top: 11%;
-    left: 8%;
+    bottom:  1vh;
+    left: 1vh;
     color: #fff;
     aspect-ratio: 1/1;
     border-radius: 50%;
     width: 8%;
     font-size: 2vh;
+    border: solid 2px #fff;
 }
 
 .back-btn i {
