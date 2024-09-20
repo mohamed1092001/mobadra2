@@ -293,10 +293,12 @@ section {
 }
 
 .en-section .center-goal-box .num,
-.ar-section .center-goal-box p {
+.ar-section .center-goal-box .num {
     margin: auto;
     transform: translateY(-50%) translateX(0px) !important;
 }
+
+
 
 .en-section .center-goal-box p,
 .ar-section .center-goal-box p {

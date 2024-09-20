@@ -32,20 +32,28 @@ $(document).ready(function () {
         $(".hero p").css("font-size", (fontSize * .036635) + 'px');
         $(".hero button").css("font-size", (fontSize * .036) + 'px');
         $(".reyada-ar p").css("font-size", (fontSize * .0326) + 'px');
+        $(".reyada-en p").css("font-size", (fontSize * .0326) + 'px');
         $(".trainning-nashreen-ar p").css("font-size", (fontSize * .0326) + 'px');
         $(".trainning-nashreen-en p").css("font-size", (fontSize * .0326) + 'px');
         $(".wakeel-ar p").css("font-size", (fontSize * .035) + 'px');
+        $(".wakeel-en p").css("font-size", (fontSize * .03) + 'px');
         $(".nashr-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".nashr-en p").css("font-size", (fontSize * .032) + 'px');
         $(".elketaab-ar p").css("font-size", (fontSize * .032) + 'px');
         $(".elketaab-en p").css("font-size", (fontSize * .032) + 'px');
         $(".digital-ar p").css("font-size", (fontSize * .032) + 'px');
+        $(".digital-en p").css("font-size", (fontSize * .032) + 'px');
         $(".mosaraat-ar p").css("font-size", (fontSize * .032) + 'px');
+        $(".mosaraat-en p").css("font-size", (fontSize * .032) + 'px');
         $(".door-ar p").css("font-size", (fontSize * .035) + 'px');
+        $(".door2 p").css("font-size", (fontSize * .035) + 'px');
+        $(".door-en p").css("font-size", (fontSize * .035) + 'px');
         $(".bekeen-ar p").css("font-size", (fontSize * .045) + 'px');
+        $(".bekeen-en p").css("font-size", (fontSize * .045) + 'px');
         $(".see-all-ar p").css("font-size", (fontSize * .045) + 'px');
         $(".see-all-en p").css("font-size", (fontSize * .04) + 'px');
         $(".landon-ar p").css("font-size", (fontSize * .048) + 'px');
+        $(".landon-en p").css("font-size", (fontSize * .042) + 'px');
         $(".new-ar p").css("font-size", (fontSize * .048) + 'px');
         $(".new-en p").css("font-size", (fontSize * .048) + 'px');
         $(".trainnig-wekalaat-ar p").css("font-size", (fontSize * .048) + 'px');
@@ -54,6 +62,7 @@ $(document).ready(function () {
         $(".trainning-door-en p").css("font-size", (fontSize * .04) + 'px');
         $(".ar-section .mid-title").css("font-size", (fontSize * .057) + 'px');
         $(".en-section .mid-title").css("font-size", (fontSize * .05) + 'px');
+        $(".wakeel-en .mid-title").css("font-size", (fontSize * .04) + 'px');
         $(".ar-section .goal-box p").css("font-size", (fontSize * .027) + 'px');
         $(".en-section .goal-box p").css("font-size", (fontSize * .027) + 'px');
         $(".ar-section .center-goal-box p").css("font-size", (fontSize * .023) + 'px');
@@ -61,12 +70,16 @@ $(document).ready(function () {
         $(".ar-section .goal-row .mid-title").css("font-size", (fontSize * .04) + 'px');
         $(".en-section .goal-row .mid-title").css("font-size", (fontSize * .04) + 'px');
         $(".wakeel-ar .center-goal-box p").css("font-size", (fontSize * .021) + 'px');
+        $(".wakeel-en .center-goal-box p").css("font-size", (fontSize * .021) + 'px');
         $(".elketaab-ar .goal-box p").css("font-size", (fontSize * .024) + 'px');
         $(".elketaab-en .goal-box p").css("font-size", (fontSize * .024) + 'px');
         $(".elketaab-ar .center-goal-box p").css("font-size", (fontSize * .021) + 'px');
         $(".elketaab-en .center-goal-box p").css("font-size", (fontSize * .021) + 'px');
         $(".mosaraat-ar .center-goal-box p").css("font-size", (fontSize * .019) + 'px');
+        $(".mosaraat-en .center-goal-box p").css("font-size", (fontSize * .019) + 'px');
         $(".door-ar .goal-box p").css("font-size", (fontSize * .022) + 'px');
+        $(".door-en .goal-box p").css("font-size", (fontSize * .02) + 'px');
+        $(".reyada-en .goal-box p").css("font-size", (fontSize * .02) + 'px');
         $(".ar-section .goal-box .num").css("font-size", (fontSize * .025) + 'px');
         $(".en-section .goal-box .num").css("font-size", (fontSize * .025) + 'px');
         $(".elketaab-f-p").css("font-size", (fontSize * .021) + 'px');
@@ -137,6 +150,7 @@ $(document).ready(function () {
         $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
         $(".info-section video").prop('currentTime', 0);
     })
+
     $(".elketaab-en .next-btn button").click(function () {
         $("section").fadeOut(700);
         $(".elketaab2-en").fadeIn(800);
@@ -146,9 +160,51 @@ $(document).ready(function () {
         $(".info-section video").prop('currentTime', 0);
     })
 
-    $(".prev-btn button").click(function () {
+    $(".door-ar .next-btn button").click(function () {
         $("section").fadeOut(700);
-        $(".elketaab").fadeIn(800);
+        $(".door2-ar").fadeIn(800);
+        $(".info-section video").trigger("pause")
+        $("iframe").attr("src", "none")
+        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
+        $(".info-section video").prop('currentTime', 0);
+    })
+
+    $(".door-en .next-btn button").click(function () {
+        $("section").fadeOut(700);
+        $(".door2-en").fadeIn(800);
+        $(".info-section video").trigger("pause")
+        $("iframe").attr("src", "none")
+        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
+        $(".info-section video").prop('currentTime', 0);
+    })
+
+    $(".elketaab2-ar .prev-btn button").click(function () {
+        $("section").fadeOut(700);
+        $(".elketaab-ar").fadeIn(800);
+        $(".info-section video").trigger("pause")
+        $("iframe").attr("src", "none")
+        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
+        $(".info-section video").prop('currentTime', 0);
+    })
+    $(".elketaab2-en .prev-btn button").click(function () {
+        $("section").fadeOut(700);
+        $(".elketaab-en").fadeIn(800);
+        $(".info-section video").trigger("pause")
+        $("iframe").attr("src", "none")
+        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
+        $(".info-section video").prop('currentTime', 0);
+    })
+    $(".door2-ar .prev-btn button").click(function () {
+        $("section").fadeOut(700);
+        $(".door-ar").fadeIn(800);
+        $(".info-section video").trigger("pause")
+        $("iframe").attr("src", "none")
+        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
+        $(".info-section video").prop('currentTime', 0);
+    })
+    $(".door2-en .prev-btn button").click(function () {
+        $("section").fadeOut(700);
+        $(".door-en").fadeIn(800);
         $(".info-section video").trigger("pause")
         $("iframe").attr("src", "none")
         $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
