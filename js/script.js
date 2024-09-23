@@ -85,6 +85,16 @@ $(document).ready(function () {
         $(".elketaab-f-p").css("font-size", (fontSize * .021) + 'px');
         $(".trainning-nashreen-en .goal-box p:nth-child(2)").css("font-size", (fontSize * .024) + 'px');
         $(".en-section .qr-box p").css("font-size", (fontSize * .025) + 'px');
+        $(".wakeel p.wid-85").css("font-size", (fontSize * .032) + 'px');
+        $(".nashr p.wid-85").css("font-size", (fontSize * .04) + 'px');
+        $(".digital p.wid-85").css("font-size", (fontSize * .03) + 'px');
+        $(".qr-box p").css("font-size", (fontSize * .03) + 'px');
+        $(".mid-p").css("font-size", (fontSize * .032) + 'px');
+        $(".trainning-nashreen .goal-box p").css("font-size", (fontSize * .022) + 'px');
+        $(".nashr-en p.wid-85").css("font-size", (fontSize * .031) + 'px');
+        $(".see-all-en p.wid-85").css("font-size", (fontSize * .046) + 'px');
+        $(".wakeel  p.wid-85").css("font-size", (fontSize * .03) + 'px');
+        $(".wakeel-en  .center-goal-box p").css("font-size", (fontSize * .02) + 'px');
     }
 
     // أول مرة لما الصفحة تتحمل

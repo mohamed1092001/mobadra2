@@ -17,6 +17,7 @@
     outline: none;
     background-color: transparent;
     font-family: 'Effra';
+
 }
 
 .ar-mode {
@@ -105,12 +106,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    gap: 20px;
+    gap: 14px;
     justify-content: center;
 }
 
 .menu .menu-container button {
-    width: calc((100% - 40px) / 3);
+    width: calc((100% - 28px) / 3);
     aspect-ratio: 1/1;
     border-radius: 50%;
     border: solid 2px #fff;
@@ -161,13 +162,13 @@ section {
 
 .goal-box {
     width: 50%;
-    border-top: solid 2px #fff;
+    border-top: solid 1px #fff;
 }
 
 .goal-box .num {
     width: 14%;
     aspect-ratio: 1/1;
-    border: solid 2px #fff;
+    border: solid 1px #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,6 +240,7 @@ section {
 .next-btn {
     display: flex;
     justify-content: flex-start;
+    font-size: 1.5vh;
 }
 
 
@@ -248,6 +250,9 @@ section {
     align-items: center;
     font-size: 1.7vh;
     gap: 10px;
+    bottom: 1%;
+    right: 7.5%;
+    position: absolute;
 }
 
 .next-btn button span {
@@ -265,6 +270,7 @@ section {
 .prev-btn {
     display: flex;
     justify-content: flex-end;
+    font-size: 1.5vh;
 }
 
 
@@ -275,6 +281,9 @@ section {
     align-items: center;
     font-size: 1.7vh;
     gap: 10px;
+    bottom: 1%;
+    left: 7.5%;
+    position: absolute;
 }
 
 .prev-btn button span {
@@ -307,3 +316,39 @@ section {
     text-align-last: center !important;
     padding: 0px 3%;
 }
+
+/* edit */
+
+.hero .main-page .banner-box .btn-container button {
+    aspect-ratio: 247 / 90;
+    width: calc((257 / 1080) * 100%);
+    padding: 0%;
+}
+
+.qr-box {
+    border-top: solid 1px #fff;
+    padding-top: 3%;
+    align-items: center;
+}
+
+.qr-box img {
+    width: calc(.1039387308533917 * 100%);
+}
+
+.back-btn {
+    top: auto;
+    bottom: 1%;
+    left: 7.5%;
+    width: calc((81/1080)* 100%);
+    border: none;
+}
+
+.next-btn button,
+.prev-btn button {
+    width: calc((81/1080)* 500%);
+}
+
+.info-section p {
+    line-height: 120%;
+}
+

@@ -91,7 +91,7 @@ button {
 }
 
 .reyada .page-img {
-    width: 75%;
+    width: 70%;
     margin-right: auto;
     display: block;
 }
@@ -225,7 +225,7 @@ button {
 }
 
 .digital .back-btn {
-    background: #E1912E;
+    background: #012938;
 
 }
 
@@ -255,6 +255,10 @@ button {
 .door .back-btn {
     background: #85B8B1;
 
+}
+
+.door .next-btn button span{
+    background-color: #85B8B1;
 }
 
 .door .mid-title {
