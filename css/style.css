@@ -352,3 +352,6 @@ section {
     line-height: 120%;
 }
 
+.menu-ar img {
+    transform: scale(.8);
+}
